@@ -20,8 +20,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.codepath.parseinstagram.Post;
 import com.codepath.parseinstagram.R;
+import com.codepath.parseinstagram.models.Post;
 import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseUser;
@@ -45,6 +45,7 @@ public class ComposeFragment extends Fragment {
     private ImageView ivPostImage;
     private  Button btnSubmit;
 
+
     // Oncreate View
 
 
@@ -65,6 +66,8 @@ public class ComposeFragment extends Fragment {
         btnTakePic = view.findViewById( R.id.btnTakePic );
         ivPostImage = view.findViewById( R.id.ivPostImage );
         btnSubmit = view.findViewById( R.id.btnSubmit );
+
+
 
         btnTakePic.setOnClickListener( new View.OnClickListener() {
             @Override

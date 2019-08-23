@@ -24,15 +24,23 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_login );
 
+        // Add Toolbar
+        android.support.v7.widget.Toolbar toolbar = findViewById( R.id.toolbar );
+        setSupportActionBar( toolbar );
+
         etUsername = findViewById( R.id.etUsername );
         etPassword = findViewById( R.id.etPassword );
         btnLogin = findViewById( R.id.btnLogin );
         btnSignUp = findViewById( R.id.btnSignUp );
+
+
+
 
         btnSignUp.setOnClickListener( new View.OnClickListener() {
             @Override

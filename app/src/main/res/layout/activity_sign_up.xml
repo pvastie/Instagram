@@ -19,11 +19,43 @@
         android:textAlignment="center"
         android:textSize="24sp" />
 
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="91dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="15dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnAddProfilePic"
+        android:text="Add  Pic"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+    android:id="@+id/etFName"
+    android:layout_marginTop="15dp"
+    android:hint="@string/username"
+    android:textSize="18sp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etLName"
+        android:layout_marginTop="15dp"
+        android:hint="@string/username"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
     <EditText
         android:id="@+id/etUser"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="15dp"
         android:hint="@string/username"
         android:textSize="18sp"
         android:layout_width="match_parent"
@@ -31,7 +63,7 @@
 
     <EditText
         android:id="@+id/etEmail"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="15dp"
         android:hint="Email"
         android:textSize="18sp"
         android:layout_width="match_parent"
@@ -39,7 +71,7 @@
 
     <EditText
         android:id="@+id/etPwd"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="15dp"
         android:hint="Enter Password"
         android:textSize="18sp"
         android:inputType="textPassword"
@@ -53,6 +85,8 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:text="Sign UP" />
+
+
 
 
 </LinearLayout>
