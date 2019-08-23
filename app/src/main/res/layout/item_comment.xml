@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvComment"
+        android:layout_width="match_parent"
+        android:layout_below="@id/tvUserComment"
+        android:layout_height="241dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="105dp"
+        tools:text="Your Comment here" />
+
+    <TextView
+        android:id="@+id/tvUserComment"
+        android:layout_width="158dp"
+        android:layout_height="43dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="57dp"
+        tools:text="Vastie" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="75dp"
+        android:layout_height="37dp"
+        android:layout_toEndOf="@id/tvUserComment"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="55dp"
+        tools:text="time" />
+</RelativeLayout>
